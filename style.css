@@ -29,7 +29,7 @@ a:hover {
 header {
   height: 52px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   padding: 5px 15px;
   position: fixed;
@@ -73,6 +73,9 @@ header {
 .section1 {
   margin-top: 8rem;
   padding: 2rem;
+}
+.head{
+  margin-left: 2rem;
 }
 .section1 h1 {
   margin: 0 0 1rem 0;
