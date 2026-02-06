@@ -133,6 +133,169 @@ header {
   justify-self: center;
   margin: 4rem 0 1.5rem 0;
 }
+
+
+.testimonials {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.testimonials h2 {
+  text-align: center;
+  font-size: 42px;
+  font-weight: 600;
+  font-family: "Fredoka";
+  font-weight: 400;
+  margin-bottom: 60px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.card {
+  background: #1B1913;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 6px;
+  padding: 28px;
+  min-height: 220px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card p {
+  font-size: 15px;
+  line-height: 1.5;
+  color: #e6e6e6;
+  font-family: "Fredoka";
+  font-weight: 300;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.author img {
+  width: 36px;
+  height: 36px;
+  border-radius: 10%;
+}
+
+.author h4 {
+  font-size: 14px;
+  font-family: "Fredoka";
+  font-weight: 500;
+}
+
+.author span {
+  font-size: 14px;
+  color: #a1a1a1;
+  font-family: "Fredoka";
+  font-weight: 400;
+}
+
+
+.frontier {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.frontier h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 32px;
+  font-family: "Fredoka";
+  font-weight: 400;
+}
+
+.frontier-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.frontier-card {
+  background: linear-gradient(
+    180deg,
+    rgba(255,255,255,0.06),
+    rgba(255,255,255,0.02)
+  );
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 10px;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 420px;
+}
+
+.frontier-content h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.frontier-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #cfcfcf;
+  margin-bottom: 16px;
+}
+
+.frontier-content a {
+  font-size: 14px;
+  color: #ff5c00;
+  text-decoration: none;
+}
+
+.frontier-media {
+  margin-top: 24px;
+  border-radius: 4px;
+  background: rgba(255,255,255,0.06);
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+
+.frontier-media.placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9a9a9a;
+  font-size: 13px;
+}
+
+.frontier-media .chip {
+  background: rgba(0,0,0,0.6);
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+.frontier-media small {
+  position: absolute;
+  bottom: 12px;
+  left: 16px;
+  color: #8a8a8a;
+}
+
+.frontier-media.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
 .section11{
     padding: 5rem 0;
     margin: 3rem 0;
@@ -150,40 +313,6 @@ header {
     justify-self: center;
     margin: 1rem 0 0 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 footer{
