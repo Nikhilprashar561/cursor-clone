@@ -295,10 +295,199 @@ header {
   object-fit: cover;
 }
 
+.changelog-section {
+  padding: 72px 96px;
+  background: #14120B;
+}
+
+.title {
+  font-size: 28px;
+  font-family: "Fredoka";
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+
+.cardds {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.cardd {
+  background-color: #1B1913;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 5px;
+  padding: 15px 22px;
+  min-height: 110px;
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.badge {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.08);
+  color: #fff;
+}
+
+.date {
+  font-size: 14px;
+  color: rgba(255,255,255,0.55);
+}
+
+.desc {
+  font-size: 15px;
+  line-height: 1.4;
+  font-weight: 500;
+  color: rgba(255,255,255,0.92);
+}
+
+.link {
+  display: inline-block;
+  margin-top: 28px;
+  font-size: 14px;
+  color: #ff6a00;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.career-wrap {
+  padding: 20px 20px;
+  width: fit-content;
+  justify-self: center;
+  background: #1B1913;
+}
+
+.career-card {
+  max-width: 1150px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.career-left {
+  padding: 56px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.career-text {
+  font-size: 22px;
+  line-height: 1;
+  font-weight: 500;
+  color: rgba(255,255,255,0.95);
+  margin-bottom: 20px;
+  font-family: "Fredoka";
+  font-weight: 300;
+}
+
+.career-link {
+  font-size: 15px;
+  color: #ff6a00;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.career-link:hover {
+  text-decoration: underline;
+}
+
+.career-right {
+  position: relative;
+}
+
+.career-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.recent-section {
+  width:fit-content;
+  padding: 60px 0;
+  justify-self: center;
+  margin-top: 4rem;
+  border-radius: 6px;
+  background: #1B1913;
+}
+
+.recent-inner {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 0 72px;
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  gap: 48px;
+}
+
+.recent-left {
+  font-size: 15px;
+  color: #fff;
+  padding-top: 6px;
+}
+
+.recent-right {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.recent-card {
+  width: 67%;
+  padding: 22px 20px;
+  border-radius: 2px;
+  background-color: #26241E;
+}
+
+.recent-card h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
+  color: rgba(255,255,255,0.95);
+}
+
+.recent-card p {
+  font-size: 14px;
+  line-height: 1.55;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: 14px;
+}
+
+.recent-card span {
+  font-size: 13px;
+  color: rgba(255,255,255,0.45);
+}
+
+.recent-link {
+  margin-top: 6px;
+  font-size: 14px;
+  color: #ff6a00;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.recent-link:hover {
+  text-decoration: underline;
+}
+
 
 .section11{
     padding: 5rem 0;
-    margin: 3rem 0;
+    margin: 1rem 0 3rem 0;
 
 }
 .section11 h1{
